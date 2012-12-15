@@ -20,6 +20,8 @@ xkb_keymap {
 // caps is esc, alt-caps is return
     key <CAPS> { [ Escape, Escape, Return ] };
 
+    key <TAB> { [ Tab, ISO_Left_Tab, space] };
+
 // If you want the keyboard to be exactly the same as your
 // old one when not using caps, swap the order here -- you
 // can decide if you want tilde or caps-tilde to be backspace.
@@ -57,12 +59,12 @@ xkb_keymap {
     key <AC11> {	[ apostrophe,	quotedbl	]	};
     key <AC12> {	[ backslash,	bar	]	};
 
-    key <LSGT> {	[	  minus,	underscore,	slash,	question	]	};
-    key <AB01> {	[	  z,	Z,	period,	greater	]	};
-    key <AB02> {	[	  x,	X,	comma,	less	]	};
-    key <AB03> {	[	  c,	C,	m,	M	]	};
-    key <AB04> {	[	  v,	V,	k,	K	]	};
-    key <AB05> {	[	  b,	B,	b,	B	]	};
+    key <LSGT> {	[	  Up,	Left,	Down,	Right	]	};
+    key <AB01> {	[	  z,	Z,	slash,	question	]	};
+    key <AB02> {	[	  x,	X,	period,	greater	]	};
+    key <AB03> {	[	  c,	C,	comma,	less	]	};
+    key <AB04> {	[	  v,	V,	m,	M	]	};
+    key <AB05> {	[	  b,	B,	k,	K	]	};
     key <AB06> {	[	  k,	K	]	};
     key <AB07> {	[	  m,	M	]	};
     key <AB08> {	[     comma,	less	]	};
