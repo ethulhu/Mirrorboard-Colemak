@@ -20,7 +20,7 @@ xkb_keymap {
 // caps is esc, alt-caps is return
     key <CAPS> { [ Escape, Escape, Return ] };
 
-    key <TAB> { [ Tab, ISO_Left_Tab, space] };
+    key <TAB> { [ Tab, ISO_Left_Tab, BackSpace, BackSpace	] };
 
 // If you want the keyboard to be exactly the same as your
 // old one when not using caps, swap the order here -- you
