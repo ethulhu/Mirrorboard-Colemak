@@ -59,7 +59,7 @@ xkb_keymap {
     key <AC11> {	[ apostrophe,	quotedbl	]	};
     key <AC12> {	[ backslash,	bar	]	};
 
-    key <LSGT> {	[	  Up,	Left,	Down,	Right	]	};
+    key <LSGT> {	[	  grave,	asciitilde,	Return	]	};
     key <AB01> {	[	  z,	Z,	slash,	question	]	};
     key <AB02> {	[	  x,	X,	period,	greater	]	};
     key <AB03> {	[	  c,	C,	comma,	less	]	};
